@@ -1,0 +1,75 @@
+.blog {
+  width: 100%;
+  height: 868px;
+  margin-top: 120px;
+ 
+}
+.blog .txt p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-left: 140px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.blogcard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.blogcard1 {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 30px;
+}
+.blogcard1 img {
+  width: 343px;
+  height: 247px;
+}
+.blogcard1 p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.blogcard1 h4 {
+  width: 343px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.blogcard1 h6 {
+  width: 343px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.blogcard1 a {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+}
+.blogcard1 svg {
+  width: 24px;
+  stroke-width: 1.5px;
+  color: #282938;
+  margin-left: 10px;
+}

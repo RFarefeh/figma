@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width:100%;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("../../fonts/Poppins-Medium.ttf");
+}
+.active {
+  color: whitesmoke !important;
+}

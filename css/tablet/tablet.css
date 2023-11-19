@@ -1,0 +1,24 @@
+@import url("./hero.css");
+@import url("./background.css");
+@import url("./ourwork.css");
+@import url("./features.css");
+@import url("./contents.css");
+@import url("./faq.css");
+@import url("./contactform.css");
+@import url("./blog.css");
+@import url("./footer.css");
+
+@import url("./about/menu.css");
+@import url("./about/aboutus.css");
+@import url("./about/whoweare.css");
+@import url("./about/processes.css");
+@import url("./about/aboutbackground.css");
+@import url("./about/benfitsOfworking.css");
+@import url("./about/ourteam.css");
+
+@import url("./feattures/hero.css");
+@import url("./feattures/featturesclient.css");
+@import url("./feattures/benfitsOfworking.css");
+@import url("./feattures/hero.css");
+
+@import url("./contactus/contactus.css");

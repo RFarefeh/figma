@@ -1,0 +1,119 @@
+.benfitsOfworking {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  align-items: center;
+}
+.benfitsOfworking .benfit{
+  width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+}
+.benfitsOfworking .benfit h2 {
+
+  color: #282938;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+
+
+}
+.cardben {
+ 
+  display: flex;
+  flex-flow:column nowrap;
+
+}
+.customize {
+  width: 427px;
+  height: 279px;
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
+  background-color: #f4f6fc;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cardben svg {
+  width: 32.001px;
+  height: 32px;
+  
+}
+.cardben h3 {
+
+  color: #282938;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+}
+.cardben p {
+
+  color: #282938;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  text-align: center;
+
+}
+.benlogo {
+  width: 100%;
+  height: 130px;
+  
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+
+}
+.logonumber {
+  width: 176px;
+  height: 80px;
+}
+.logonumber .number {
+  width: 176px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.logonumber p {
+  width: 124px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.logoabout {
+
+
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  opacity: 0.7;
+  justify-content: space-around;
+}
+.logoabout svg {
+  width: 126.364px;
+  height: 32px;
+}

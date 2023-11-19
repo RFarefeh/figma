@@ -1,0 +1,161 @@
+
+.hero .menu {
+  width: 100%;
+  height: 92px;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #1c1e53;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.hero .menu .logo {
+  width: 122px;
+  display: flex;
+  align-items: center;
+  
+}
+.hero .menu .right {
+  width: auto;
+  height: auto;
+  
+
+}
+.hero .menu .right nav {
+  width: inherit;
+  height: inherit;
+}
+.hero .menu .right nav ul {
+  width: inherit;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  column-gap: 22px;
+  justify-content: center;
+
+}
+.hero .menu .right nav ul li {
+  width: auto;
+  height: auto;
+}
+.hero .menu .right nav ul li a {
+  display: block;
+  width: auto;
+  height: auto;
+  color: #bbbbcb;
+  font-family: poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90px;
+  text-transform: capitalize;
+  text-decoration: none;
+
+
+}
+.hero .menu .contact {
+  
+
+  display: flex;
+  align-items: center;
+}
+.hero .menu .contact a button {
+  width: 160px;
+  height: 50px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background-color: transparent;
+  color: #fff;
+  font-family: poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  cursor: pointer;
+}
+.hero .bHero {
+  background-color: #1c1e53;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items:center;
+  justify-content:center;
+}
+.hero .bHero .text {
+  width: 482px;
+  height: 414px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 24px;
+
+}
+
+.hero .bHero .text .textBold {
+  color: white;
+
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+}
+.hero .bHero .text .textHeading {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.hero .bHero .text .btn {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 40px;
+  align-items: center;
+}
+.hero .bHero .text .btn button {
+  display: inline-flex;
+  padding: 15px 56px;
+  background-color: #fcd980;
+  border-radius: 41px;
+  color: #1b1c2b;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+  align-items: center;
+}
+.hero .bHero .text .btn a:nth-of-type(1) {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.hero .bHero .text .btn a:nth-of-type(2) svg {
+  fill: #fff;
+  stroke-width: 1.5px;
+  stroke: #f4f6fc;
+  width: 24px;
+}
+.hero .bHero .illustration {
+
+  perspective: 500px;
+  
+}
+
+.hero .bHero .illustration img {
+  width: 578.5px;
+  height: 360.115px;
+}
+
+.menuMobile {
+  display: none;
+}

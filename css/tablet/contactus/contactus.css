@@ -1,0 +1,95 @@
+.contactusheading {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.countactus {
+  width: 600px;
+  height: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.countactus h2 {
+  color: #282938;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.countactus p {
+  width: 562px;
+  color: #282938;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 60px;
+}
+.countactform {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.form2 {
+  width: 900px;
+  height: 600px;
+  background-color: #f4f6fc;
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.form2 input[type="text"],
+select {
+  width: 100%;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form2 input[type="submit"] {
+  background-color: #282938;
+  color: white;
+  padding: 14px 60px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+}
+
+.form2 input[type="submit"]:hover {
+  background-color: cadetblue;
+}
+
+.form2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}

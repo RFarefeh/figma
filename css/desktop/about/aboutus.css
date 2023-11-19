@@ -1,0 +1,61 @@
+
+
+.aboutushero {
+  width: 100%;
+  height: 510px;
+  display: flex;
+  flex-flow: row nowrap;
+ align-items: center;
+ justify-content: space-around;
+
+
+}
+.about {
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+ 
+}
+.ttxt1 {
+  width: 660px;
+  height: inherit;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+
+  margin-top: 20px;
+}
+.ttxt1 h6 {
+  width: 419px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+.ttxt1 h2 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+}
+.ttxt1 p {
+  width: 484px;
+  color: #282938;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.about img {
+  width: 540px;
+  height: 336px;
+}

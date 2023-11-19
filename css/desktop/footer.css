@@ -1,0 +1,132 @@
+.dark {
+  width: 100%;
+  height: 305px;
+  background-color: #1c1e53;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.letstalk .f {
+  width: 367px;
+  height: 122px;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+.letstalk .f p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+}
+.box {
+  background-color: #fcd980;
+  margin-top: 69px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.box .left h3 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.box .left p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+.box .right h3 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.box .right p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+}
+.light {
+  width: 545px;
+  height: 200px;
+  margin-left: 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.light h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px;
+}
+.light p {
+  width: 399px;
+  color: var(--Grey, #f4f6fc);
+
+  opacity: 0.8;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 175% */
+}
+.light span {
+  width: 112px;
+  display: flex;
+  gap: 16px;
+}
+.footer {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .copy {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.footer .b a {
+  color:#282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 8px;
+  opacity: 0.7;
+}
+

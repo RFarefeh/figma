@@ -1,0 +1,185 @@
+.faq {
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.faqheader {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.faqheading {
+
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+
+  row-gap: 16px;
+}
+
+.faqheading h3 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+}
+.faqheading a {
+  text-decoration: none;
+  color: #2405f2;
+  text-align: start;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+.qustions {
+  width: 95%;
+  height: auto;
+  max-width: 500px;
+  display: flex;
+  flex-flow: column nowrap;
+
+  align-items: center;
+}
+.qustions div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+}
+.qustions div label {
+  display: inline-block;
+  width: fit-content;
+  cursor: pointer;
+}
+.qustions div .ask {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 50px;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+.qustions div .ask p.number {
+  color:  #2405f2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.qustions div .ask p.q {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+input[type="radio"] {
+  display: none;
+}
+.qustions div label.s {
+  position: absolute;
+  right: 0;
+  top: 32px;
+  background-color: white;
+}
+#show1:checked ~ label.c {
+  display: inline-block;
+}
+#close1:checked ~ div.i {
+  height: 0;
+}
+
+.qustions div label.c {
+  position: absolute;
+  right: 0;
+  top: 32px;
+  background-color: white;
+  display: none;
+}
+.qustions div label.c i {
+  color: black;
+  font-weight: 400;
+}
+.qustions div label.s i {
+  color: black;
+  font-weight: 400;
+}
+.qustions hr {
+  border: none;
+  background-color: #ececf1;
+  width: 100%;
+  height: 2px;
+}
+.qustions div div.i {
+  width: 100%;
+  transition: 300ms;
+ 
+  overflow: hidden;
+}
+.qustions div div.i p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 0.87;
+}
+#show1:checked ~ div.i {
+  height: 90px;
+}
+#show2:checked ~ label.c {
+  display: inline-block;
+}
+#close2:checked ~ div.i {
+  height: 0;
+}
+#show2:checked ~ div.i {
+  height: 90px;
+}
+
+#show3:checked ~ label.c {
+  display: inline-block;
+}
+#close3:checked ~ div.i {
+  height: 0;
+}
+#show3:checked ~ div.i {
+  height: 90px;
+}
+
+#show4:checked ~ label.c {
+  display: inline-block;
+}
+#close4:checked ~ div.i {
+  height: 0;
+}
+#show4:checked ~ div.i {
+  height: 90px;
+}
+
+#show5:checked ~ label.c {
+  display: inline-block;
+}
+#close5:checked ~ div.i {
+  height: 0;
+}
+#show5:checked ~ div.i {
+  height: 90px;
+}

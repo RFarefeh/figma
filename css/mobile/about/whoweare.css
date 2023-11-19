@@ -1,0 +1,88 @@
+.whoweare {
+  width: 100%;
+  height: 816px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+}
+.weare {
+
+
+  
+  background: #f4f5f5;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 50px;
+}
+.weare .ttop {
+ 
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content:center;
+  align-items: center;
+  gap: 50px;
+}
+.weare .ttop .left {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.weare .ttop .left h6 {
+  color:  #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+}
+.weare .ttop .left h2 {
+  width: 300px;
+  color:  #282938;
+
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.weare .ttop .left p {
+  width: 300px;
+  color:#282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.weare .ttop .right {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.weare .ttop .right h2 {
+  width: 300px;
+  color:  #282938;
+
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.weare .ttop .right p {
+  width: 300px;
+  color:  #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+}
+.weare .btop{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,236 @@
+.hero {
+  width: 100%;
+  height: 1000px;
+  background-color: #1c1e53;
+}
+.hero .menu {
+  width: 100%;
+  height: 92px;
+  display: flex;
+  flex-flow: row nowrap !important;
+  background-color: #1c1e53;
+  justify-content:space-between;
+  align-items: center;
+  gap: 40px;
+}
+.hero .menu .logo {
+  width: 122px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+.hero .menu .right {
+  width: auto;
+  height: auto;
+}
+.hero .menu .right nav {
+  width: inherit;
+  height: inherit;
+}
+.hero .menu .right nav ul {
+  width: inherit;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  column-gap: 22px;
+  justify-content: center;
+  display: none;
+}
+.hero .menu .right nav ul li {
+  width: auto;
+  height: auto;
+}
+.hero .menu .right nav ul li a {
+  display: block;
+  width: auto;
+  height: auto;
+  color: #bbbbcb;
+  font-family: poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.menu .contact {
+  
+
+  display: flex;
+  align-items: center;
+  margin: 30px;
+
+}
+.hero .menu .contact a {
+  margin-right: 10px !important;
+}
+
+.hero .menu .contact a button {
+  width: 110px;
+  height: 40px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background-color: transparent;
+  color: #fff;
+  font-family: poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  cursor: pointer;
+}
+.hero .bHero {
+  background-color: #1c1e53;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.hero .bHero .text {
+ width: 80%;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 24px;
+}
+
+.hero .bHero .text .textBold {
+  color: white;
+
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+}
+.hero .bHero .text .textHeading {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  
+}
+.hero .bHero .text .btn {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 20px;
+  align-items: center;
+}
+.hero .bHero .text .btn button {
+  display: inline-flex;
+  padding: 15px 54px;
+  background-color: #fcd980;
+  border-radius: 41px;
+  color: #1b1c2b;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+  align-items: center;
+}
+.hero .bHero .text .btn a:nth-of-type(1) {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.hero .bHero .text .btn a:nth-of-type(2) svg {
+  fill: #fff;
+  stroke-width: 1.5px;
+  stroke: #f4f6fc;
+  width: 24px;
+}
+.hero .bHero .illustration {
+  perspective: 500px;
+}
+
+.hero .bHero .illustration svg {
+  width: 378.5px;
+  height: 360.115px;
+}
+
+
+
+
+.toggleMenu {
+  width: 35px;
+  height: 35px;
+  background-color: #1c1e53 !important;
+
+  position: relative;
+  border-radius: 3px;
+}
+.toggleMenu div {
+  width: 80%;
+  height: 2px;
+  background-color: whitesmoke !important;
+  position: absolute;
+  left: calc(50% - 80% / 2);
+  cursor: pointer;
+}
+.toggleMenu div:nth-of-type(1) {
+  top: calc(50% - 2px / 2 - 5px);
+}
+.toggleMenu div:nth-of-type(2) {
+  top: calc(50% - 2px / 2);
+}
+.toggleMenu div:nth-of-type(3) {
+  top: calc(50% - 2px / 2 + 5px);
+}
+.menuMobile {
+  width: 100%;
+  height: 100vh;
+  background-color: #1c1e53 !important;
+  position: absolute;
+  z-index: 9999;
+  top: 0% !important;
+  right:100% !important;
+  transition: 300ms;
+}
+.menuMobile nav {
+  width: 100%;
+  height: inherit;
+}
+.menuMobile nav ul {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: column nowrap;
+  list-style: none;
+}
+.menuMobile nav ul li {
+  width: 100%;
+  height: 40px;
+}
+.menuMobile nav ul li a {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  display: block;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: none;
+  line-height: 40px;
+  transition: 300ms;
+}
+.menuMobile nav ul li a:hover {
+  background-color:darkblue !important;
+}
+.menuMobile nav ul li:nth-last-of-type(1):hover a {
+  background-color: transparent;
+}
+.active {
+  left: 0% !important;
+}

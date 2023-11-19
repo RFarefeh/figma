@@ -1,0 +1,148 @@
+.contactform {
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.startconvert {
+  width: 81%;
+  height: inherit;
+  background-color: rgba(28, 30, 83, 0.5);
+  display: flex;
+  flex-flow: column wrap;
+  gap: 49px;
+  position: relative;
+}
+.startconvert img {
+  width:100%;
+  height: 593px;
+  position: absolute;
+  z-index: -1;
+}
+
+.startconvert .heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content:center;
+  align-items: center;
+ 
+}
+.startconvert .heading h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+  text-align: center;
+}
+.startconvert .heading p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+
+}
+.form {
+  width:90%;
+  height: 593px;
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.form .bg {
+  width:inherit;
+  height: 593px;
+  background-color: #1c1e53;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.form .bg h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.form .bg .t {
+  width: 432px;
+}
+.form .bg .t p {
+  color: #f4f6fc;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+}
+.form .bg form {
+  width: 432px;
+  height: 64px;
+  margin-top: 10px;
+}
+.form .bg form input {
+  width: 432px;
+  height: 50px;
+  background-color: #1c1e53;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  padding-left: 20px;
+}
+.form .bg button {
+  display: flex;
+  width: 432px;
+  height: 64px;
+  padding: 15px 51px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 15px;
+  border-radius: 41px;
+  background: #fcd980;
+  margin-bottom: 20px;
+}
+.form .bg p {
+  color: #1b1c2b;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.form .bg a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-decoration: none;
+}
+.form .bg svg {
+  width: 24px;
+  color: #f4f6fc;
+  margin-left: 10px;
+}

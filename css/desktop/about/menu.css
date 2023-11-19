@@ -1,0 +1,76 @@
+.hero1{
+  width: 100%;
+  height: 92px;
+ 
+}
+.hero1 .menu {
+  width: 100%;
+  height: 92px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+  align-items: center;
+  gap: 10px;
+
+  background-color: #1c1e53;
+}
+.hero1 .menu .logo {
+  width: 122px;
+  display: flex;
+  align-items: center;
+  margin-right: 352px;
+  margin-left: 100px;
+}
+.hero1 .menu .right {
+  width: auto;
+  height: auto;
+}
+.hero1.menu .right nav {
+  width: inherit;
+  height: inherit;
+}
+.hero1 .menu .right nav ul {
+  width: inherit;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  column-gap: 42px;
+  justify-content: center;
+}
+.hero1 .menu .right nav ul li {
+  width: auto;
+  height: auto;
+}
+.hero1 .menu .right nav ul li a {
+  display: block;
+  width: auto;
+  height: auto;
+  color: #bbbbcb;
+  font-family: poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.hero1 .menu .contact {
+  display: flex;
+  align-items: center;
+}
+.hero1 .menu .contact a button {
+  width: 160px;
+  height: 50px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background-color: transparent;
+  color: #fff;
+  font-family: poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  cursor: pointer;
+  margin-left: 20px;
+}
