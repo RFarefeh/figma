@@ -15,6 +15,8 @@
   row-gap: 16px;
   width: 405px;
   height: auto;
+  
+  justify-content: center;
 }
 .background .heading .more {
   color: #282938;
@@ -32,6 +34,18 @@
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  
+}
+.background .heading .us {
+  display: flex;
+  flex-flow: row nowrap;
+  row-gap: 16px;
+  height: 60px;
+
+ 
+  
+
+ 
 }
 .background .heading .us a {
   color: #2405f2;
@@ -41,8 +55,25 @@
   font-weight: 500;
   line-height: 32px;
   text-decoration: none;
-  padding-right: 15px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+
+  
+ 
 }
+.background .heading .us  a img{
+  width: 46px;
+  height: 45px;
+
+  
+
+  
+}
+
+
+
 
 .background .cards {
   width: 656px;

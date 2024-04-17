@@ -154,17 +154,27 @@
   flex-flow: row wrap;
   justify-content: center;
 }
+.headingg{
+  width:30%;
+  height:inherit;
+  display: flex;
+  flex-flow:row nowrap;
+  row-gap: 16px;
+  justify-content:start;
+ margin-top: 100px;
+ padding-left: 70px;
+}
 .faqheader {
   width: 80%;
-  height: auto;
+  height: 800px;
   display: flex;
   flex-flow: row nowrap;
   margin-top: 100px;
   gap: 90px;
 }
 .faqheading {
-  width: 30%;
-  height: auto;
+  width: inherit;
+  height: inherit;
   display: flex;
   flex-flow: column nowrap;
   align-items: start;
@@ -184,12 +194,14 @@
 .faqheading a {
   text-decoration: none;
   color: #2405f2;
-  text-align: center;
+  text-align: start;
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 32px;
+  width: 328px;
+  height: 112px;
 }
 .qustions {
   width: 60%;

@@ -2,3 +2,27 @@
  @import "./desktop/desktop.css" only screen and (min-width: 1300px);
  @import "./tablet/tablet.css" only screen and (min-width: 800px) and (max-width: 1300px);
  @import "./mobile/mobile.css" only screen and (max-width: 800px);
+
+
+
+ div.slider div.swiper-button-prev{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: calc(100% - 88px);
+    top: calc(100% - 40px);
+    color: black;
+    --swiper-navigation-size: 15px;
+    
+ }
+ div.slider div.swiper-button-next{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    --swiper-navigation-size: 15px;
+    right: 18px;
+    top: calc(100% - 40px);
+    color: black;
+ }
+ 
+    

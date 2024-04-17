@@ -14,16 +14,16 @@
   justify-content: center;
 }
 .weare .ttop {
-  width: 661px;
+  width:inherit;
   height: inherit;
   display: flex;
-  flex-flow: row;
+  flex-flow: row nowrap;
   justify-content: space-around;
   gap: 50px;
 }
 .weare .ttop .left {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
 }
 .weare .ttop .left h6 {

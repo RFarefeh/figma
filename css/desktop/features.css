@@ -34,9 +34,9 @@
   font-weight: 600;
   line-height: 64px;
 }
-.cardsfeature .cards {
+.cardsfeature  {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -44,7 +44,7 @@
   margin-right: 80px;
   margin-top: 20px;
 }
-.cardsfeature .cards div {
+.cardsfeature .cards{
   display: flex;
   flex-flow: column wrap;
   background-color: #fff;

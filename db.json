@@ -1,0 +1,401 @@
+{
+    "menutop":[
+
+        {"id":1,"name":"home","link":"http://127.0.0.1:5500/index.html"},
+        {"id":2,"name":"about us","link":"http://127.0.0.1:5500/aboutus.html"},
+        {"id":3,"name":"features","link":"http://127.0.0.1:5500/features.html"},
+        {"id":4,"name":"pricing","link":"/"},
+        {"id":5,"name":"faq","link":"/"},
+        {"id":6,"name":"blog","link":"/"}
+    ],
+    
+    "contact":{"id":1 ,"Contact":"http://127.0.0.1:5500/contactus.html"},
+
+    "logo":{"id":1 ,"logo":"http://127.0.0.1:5500/imgs/1.png","alt":"logo"},
+        
+    "togglemenu": [
+        {
+        "id": 1,
+        "name": "Home",
+        "link": "./index.html"
+        },
+        {
+        "id": 2,
+        "name": "About Us",
+        "link": "./about-us.html"
+        },
+        {
+        "id": 3,
+        "name": "Features",
+        "link": "./features.html"
+        },
+        {
+        "id": 4,
+        "name": "Pricing",
+        "link": "./price.html"
+        },
+        {
+        "id": 5,
+        "name": "FAQ",
+        "link": "/"
+        },
+        {
+        "id": 6,
+        "name": "BLOG",
+        "link": "/"
+        }
+    ],
+
+    "bhero":[
+        {
+            "id":1,
+            "textBold":"Building stellar websites for early startups",
+            "textHeading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "btn":"View our work",
+            "pArrow":"View pricing",
+            "img_view":"http://127.0.0.1:5500/imgs/arrow2.png",
+            "img_view_alt":"View pricing",
+            "img_ill":"./imgs/2.png",
+            "img_ill_alt":"illustration"
+
+        }
+    ],
+    "how_we": [
+        {
+        "id": 1,
+        "title": "how we work",
+        "pOne":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        "pTow":"Get in touch with us",
+        "img":"http://127.0.0.1:5500/imgs/b1arrow.png"
+        
+        
+        }
+     
+    ],
+    "how_we_work": [
+        {"id": 1,
+            "name01":"strategy",
+            "img01":"http://127.0.0.1:5500/imgs/Untitled.jpg",
+            "name02":"wireframing",
+            "img02":"http://127.0.0.1:5500/imgs/Untitled2.jpg",
+            "name03":"design",
+            "img03":"http://127.0.0.1:5500/imgs/Untitled3.jpg",
+            "name04":"development",
+            "img04":"http://127.0.0.1:5500/imgs/Untitled4.jpg",
+            "txt":"Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+        }
+    ],
+
+    "ourwork01": [
+        {
+        "id": 1,
+        "title": "View our projects",
+        "name":"View More"
+
+        
+        
+        }
+     
+    ],
+    "ourwork02": [
+     
+        {
+        "id": 1,
+        "title": "Workhub office Webflow Webflow Design",
+        "name": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam",
+        "button": "View more",
+        "image": "http://127.0.0.1:5500/imgs/Card.jpg"
+        }
+    ],
+    "featuresh":[
+    {
+        "id":"1",
+        "ptop":"Features",
+        "pdown":"Design that solves problems, one product at a time"
+    }
+    ],
+    "features": [
+        {
+        "id": 1,
+        "title": "Uses Client First",
+        "icon": "http://127.0.0.1:5500/imgs/featur.png",
+        "content": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+        },
+        {
+        "id": 2,
+        "title": "Two Free Revision Round",
+        "icon": "",
+        "content": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+        },
+        {
+        "id": 3,
+        "title": "Template Customization",
+        "icon": "",
+        "content": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+        },
+        {
+        "id": 4,
+        "title": "24/7 Support",
+        "icon": "",
+        "content": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+        },
+        {
+        "id": 5,
+        "title": "Quick Delivery",
+        "icon": "",
+        "content": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+        },
+        {
+        "id": 6,
+        "title": "Hands-on approach",
+        "icon": "",
+        "content": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+        }
+    ],
+    "clients":[
+        {
+            "id":1,
+            "title":"What our clients say about us",
+            "p1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+
+        }
+    ],
+   
+    "slider": [
+        {
+            "id": 1,
+            "comments": "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus.",
+            "p01": "Jenny Wilson",
+            "p02": "Vice President",
+            "image":"http://127.0.0.1:5500/imgs/woman-in-collared-shirt-774909.png"
+        },
+        {
+            "id": 2,
+            "comments": "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus.",
+            "p01": "Jenny Wilson",
+            "p02": "Vice President",
+            "image":"http://127.0.0.1:5500/imgs/woman-in-collared-shirt-774909.png"
+        },
+        {
+            "id": 3,
+            "comments": "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus.",
+            "p01": "Jenny Wilson",
+            "p02": "Vice President",
+            "image":"http://127.0.0.1:5500/imgs/woman-in-collared-shirt-774909.png"
+        },
+        {
+            "id": 4,
+            "comments": "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus.",
+            "p01": "Jenny Wilson",
+            "p02": "Vice President",
+            "image":"http://127.0.0.1:5500/imgs/woman-in-collared-shirt-774909.png"
+        }
+     
+    ],
+    "faq1": [
+        {
+            "id": 1,
+            "h1": "Frequently asked questions",
+            "p1": "Contact us for more info"
+            
+        }
+
+    ],
+    "faq": [
+        {
+        "id": 1,
+        "number": "01",
+        "title": "How much time does it take?",
+        "taq": "1"
+        },
+        {
+        "id": 1,
+        "number": "02",
+        "title": "What is your class naming convention?",
+        "taq": "2"
+        },
+        {
+        "id": 1,
+        "number": "03",
+        "title": "How do you communicate?",
+        "taq": "3"
+        },
+        {
+        "id": 1,
+        "number": "04",
+        "title": "I have a bigger project. Can you handle it?",
+        "taq": "4"
+        },
+        {
+        "id": 1,
+        "number": "05",
+        "title": "What is your class naming convention?",
+        "taq": "5"
+        }
+    ],
+    "contactform":[
+        {
+            "id":"1",
+            "img":"./imgs/woman-writing-on-paper-3228878.jpg",
+            "h1":"Building stellar websites for early startups",
+            "p1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+        }
+
+    ],
+    "form":[
+        {
+            "id":"1",
+            "h2":"Send inquiry",
+            "p1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+            "btn":"Send an Inquiry",
+            "ap":"Get in touch with us"
+
+        }
+
+    ],
+
+    "blog": [
+        {
+        "id": 1,
+        "HOne": "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        "HTwo": "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+        "readMore": "Read More",
+        "date": "19 Jan 2022"
+        }
+    ],
+    "dark":[
+        {
+            "id":"1",
+            "pp1":"We are always open to discuss your project and improve you online presence.",
+            "img1":"./imgs/1.png"
+        }
+    ],
+    "light":[
+        {
+            "id":"1",
+            "h3":"Lets Talk!",
+            "p1":"We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.",
+            "img1":"./imgs/fb.png",
+            "img2":"./imgs/tw.png",
+            "img3":"./imgs/ins.png",
+            "img4":"./imgs/link.png"
+        }
+        
+    ],
+    "conction":{"id":1,"email":"contact@website.com","call":"0927 6277 28525"},
+    "footer":[
+        {
+            "id":"1",
+            "p1":"Copyright 2022, Finsweet.com",
+            "p2":"go to the to"
+        }
+        
+    ],
+
+
+
+
+    "abouthero": [
+        {
+        "id": 1,
+        "hOne": "About us",
+        "hTwo": "Our designs solve problems",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "image": "http://127.0.0.1:5500/imgs/group-of-people-sitting-indoors-3184360.jpg"
+        }
+    ],
+    "weare": [
+        {
+        "id": 1,
+        "hOne": "Who we are",
+        "hTwo": "Goal focussed",
+        "p1": " ipsum dolor sit Loremamet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. U enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..",
+        "h2":"Continuous improvement",
+        "p3":" ipsum dolor sit Loremamet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. U enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..",
+        "image": "http://127.0.0.1:5500/imgs/man-in-blue-jacket-looking-at-white-board-7413916.jpg"
+        }
+    ],
+    "process": [
+        {
+        "id": 1,
+        "h1":"The process we follow",
+        "name": "Planning",
+        "name2": "Conception",
+        "name3": "Design",
+        "name4": "Development",
+        "p":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+        }
+    ],
+    "inspire": [
+        {
+        "id": 1,
+        "hOne": "Our Mission ",
+        "hTwo": "Inspire, Innovate, Share",
+        "p1": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "image": "http://127.0.0.1:5500/imgs/a-man-standing-in-an-office-7792811.jpg",
+        "image1":"http://127.0.0.1:5500/imgs/photo-of-women-at-the-meeting-3810789.jpg",
+        "h2":"Our Vision",
+        "h3":" Laser focus",
+        "p2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+
+        }
+    ],
+    "benefit":{"id":1,"title":"The benefits of working with us"},
+    "cardben":[
+        {
+        "id":1,  
+        "image1":"http://127.0.0.1:5500/imgs/featur.png",
+        "h2":"Customize with ease",
+        "p2":" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+        },
+        {
+            "id":2,  
+            "image1":"http://127.0.0.1:5500/imgs/featur.png",
+            "h2":"Customize with ease",
+            "p2":" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+        },
+        {
+            "id":3,  
+            "image1":"http://127.0.0.1:5500/imgs/featur.png",
+        "h2":"Customize with ease",
+        "p2":" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+        }
+    ],
+    "benlogo":[
+        {
+        "id":1,  
+        "image":"http://127.0.0.1:5500/imgs/logoi",
+        "number":"100.000+",
+        "p1":"Finsweet Users ",
+        "image1":"http://127.0.0.1:5500/imgs/logoi.png",
+        "image2":"http://127.0.0.1:5500/imgs/logoi2.png",
+        "image3":"http://127.0.0.1:5500/imgs/logoi3.png",
+        "image4":"http://127.0.0.1:5500/imgs/logoi4.png",
+        "image5":"http://127.0.0.1:5500/imgs/logoi5.png"
+        }
+   
+    ],
+    "team":[
+        {
+            "id":1,  
+            "image11":"http://127.0.0.1:5500/imgs/jem.jpg",
+            "image12":"http://127.0.0.1:5500/imgs/simon.jpg",
+            "image13":"http://127.0.0.1:5500/imgs/Paul.jpg",
+            "image14":"http://127.0.0.1:5500/imgs/sara.jpg",
+            "hh1":"Meet our team",
+            "h1":"John Smith",
+            "p1":"CEO",
+            "h2":"Simon Adams",
+            "p2":"CTO",
+            "h3":"Paul Jones",
+            "p3":"Design Lead",
+            "h4":"Sara Hardin",
+            "p4":"Project Manager"
+        }
+    ]
+
+}
+
+
+  

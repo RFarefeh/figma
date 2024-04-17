@@ -14,6 +14,10 @@
   margin-top: 80px;
   margin-left: 120px;
 }
+.f img{
+  width: 50%;
+  height: 50%;
+}
 
 .letstalk .f p {
   color: #fff;
@@ -26,7 +30,7 @@
 }
 .box {
   background-color: #fcd980;
-  margin-top: 69px;
+  margin-top: 44px;
   display: flex;
   gap: 40px;
   align-items: center;
@@ -67,12 +71,12 @@
 }
 .light {
   width: 545px;
-  height: 200px;
+  height: 250px;
   margin-left: 200px;
   margin-top: 50px;
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+
   gap: 10px;
 }
 .light h3 {
@@ -82,6 +86,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: 64px;
+
+
 }
 .light p {
   width: 399px;
@@ -92,13 +98,23 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 175% */
+  line-height: 26px;
+  padding-right: 140px;
 }
-.light span {
-  width: 112px;
-  display: flex;
-  gap: 16px;
+.light .socail {
+display: flex;
+flex-flow: row;
+
+
+
 }
+.light img{
+  width: 30px;
+  height: 30px;
+}
+
+
+
 .footer {
   width: 100%;
   height: 90px;
